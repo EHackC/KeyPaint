@@ -3,3 +3,6 @@ KeyPaint.exe: main.o
 
 main.o: main.cpp
 	gcc main.cpp -c -o main.o
+
+clean:
+	del *.o *.exe
